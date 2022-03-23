@@ -55,6 +55,7 @@ General information on acceleration: https://developer.android.com/studio/run/em
 
 # :heavy_check_mark: Solution
 [Issues](https://github.com/microsoft/WSL/issues/7149#issue-936821358)
+
 That's expected, WSL2 doesn't have udev.
 
 You can use wsl.conf to change those permissions at boot time with something like this though:
