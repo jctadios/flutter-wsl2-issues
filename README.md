@@ -14,7 +14,7 @@ Ubuntu 20.04
 ### Other Software
 KVM
 
-## 1 Emulator Denied Permission :warning:
+## 1. Emulator Denied Permission :warning:
 
 Incorrect permissions on /dev/kvm is preventing startup of Android emulator although the user is a member of the required group.
 
