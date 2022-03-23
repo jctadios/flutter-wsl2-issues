@@ -22,7 +22,7 @@ Incorrect permissions on /dev/kvm is preventing startup of Android emulator alth
 $ emulator -avd api29
 emulator: Android emulator version 30.6.5.0 (build_id 7324830) (CL:N/A)
 ProbeKVM: This user doesn't have permissions to use KVM (/dev/kvm).
-The KVM line in /etc/group is: [kvm:x:108:davisj]
+The KVM line in /etc/group is: [kvm:x:108:<user>]
 
 If the current user has KVM permissions,
 the KVM line in /etc/group should end with ":" followed by your username.
@@ -42,7 +42,7 @@ You may need to log out and back in for changes to take effect.
 handleCpuAcceleration: feature check for hvf
 emulator: ERROR: x86 emulation currently requires hardware acceleration!
 CPU acceleration status: This user doesn't have permissions to use KVM (/dev/kvm).
-The KVM line in /etc/group is: [kvm:x:108:davisj]
+The KVM line in /etc/group is: [kvm:x:108:<user>]
 
 If the current user has KVM permissions,
 the KVM line in /etc/group should end with ":" followed by your username.
